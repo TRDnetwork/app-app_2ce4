@@ -1,0 +1,9 @@
+{
+  "name": "one-shop-test3",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'no build'",
+    "start": "echo 'static site'"
+  }
+}
