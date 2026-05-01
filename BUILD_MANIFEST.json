@@ -1,0 +1,134 @@
+{
+  "brand": {
+    "name": "one shop test3",
+    "tagline": "Quality products, seamless shopping experience",
+    "industry": "ecommerce",
+    "tone": "professional"
+  },
+  "archetype": "MARKETPLACE",
+  "design_tokens": {
+    "font_serif": "'Inter', system-ui, sans-serif",
+    "font_sans": "'Inter', system-ui, -apple-system, sans-serif",
+    "color_bg": "#FFFFFF",
+    "color_surface": "#FAFAFA",
+    "color_text_primary": "#111827",
+    "color_text_secondary": "#6B7280",
+    "color_accent": "#DC2626",
+    "color_border": "#E5E7EB",
+    "color_header_bg": "#111827",
+    "color_footer_bg": "#1F2937",
+    "radius_sm": "4px",
+    "radius_md": "8px",
+    "radius_lg": "16px",
+    "shadow_sm": "0 1px 2px rgba(0,0,0,0.05)",
+    "shadow_md": "0 4px 12px rgba(0,0,0,0.08)",
+    "max_content_width": "1400px"
+  },
+  "pages_built": [
+    "index",
+    "products",
+    "product-detail",
+    "cart",
+    "checkout",
+    "about",
+    "contact",
+    "faq"
+  ],
+  "header_nav": [
+    { "label": "Home", "href": "/index.html" },
+    { "label": "Shop", "href": "/products.html" },
+    { "label": "About", "href": "/about.html" },
+    { "label": "Contact", "href": "/contact.html" },
+    { "label": "FAQ", "href": "/faq.html" }
+  ],
+  "footer_links": {
+    "section_1_title": "Shop",
+    "section_1_links": [
+      { "label": "All Products", "href": "/products.html" },
+      { "label": "New Arrivals", "href": "/products.html" },
+      { "label": "Best Sellers", "href": "/products.html" },
+      { "label": "Deals", "href": "/products.html" }
+    ],
+    "section_2_title": "Support",
+    "section_2_links": [
+      { "label": "Contact Us", "href": "/contact.html" },
+      { "label": "FAQ", "href": "/faq.html" },
+      { "label": "Shipping Info", "href": "/faq.html" },
+      { "label": "Returns", "href": "/faq.html" }
+    ],
+    "section_3_title": "Company",
+    "section_3_links": [
+      { "label": "About Us", "href": "/about.html" },
+      { "label": "Privacy Policy", "href": "/about.html" },
+      { "label": "Terms of Service", "href": "/about.html" },
+      { "label": "Careers", "href": "/about.html" }
+    ],
+    "section_4_title": "Connect",
+    "section_4_links": [
+      { "label": "Facebook", "href": "#" },
+      { "label": "Instagram", "href": "#" },
+      { "label": "Twitter", "href": "#" },
+      { "label": "Pinterest", "href": "#" }
+    ]
+  },
+  "canonical_header_html": "<header class=\"site-header\"><div class=\"header-inner\"><a href=\"/index.html\" class=\"brand-logo\">one shop test3</a><button class=\"hamburger-toggle\" aria-label=\"Toggle menu\" aria-expanded=\"false\"><span></span><span></span><span></span></button><nav class=\"primary-nav\" aria-label=\"Primary\"><a href=\"/index.html\">Home</a><a href=\"/products.html\">Shop</a><a href=\"/about.html\">About</a><a href=\"/contact.html\">Contact</a><a href=\"/faq.html\">FAQ</a><a href=\"/cart.html\" class=\"cart-link\">Cart (<span id=\"cart-count\">0</span>)</a></nav></div></header>",
+  "canonical_footer_html": "<footer class=\"site-footer\"><div class=\"footer-inner\"><div class=\"footer-section\"><h3>Shop</h3><ul><li><a href=\"/products.html\">All Products</a></li><li><a href=\"/products.html\">New Arrivals</a></li><li><a href=\"/products.html\">Best Sellers</a></li><li><a href=\"/products.html\">Deals</a></li></ul></div><div class=\"footer-section\"><h3>Support</h3><ul><li><a href=\"/contact.html\">Contact Us</a></li><li><a href=\"/faq.html\">FAQ</a></li><li><a href=\"/faq.html\">Shipping Info</a></li><li><a href=\"/faq.html\">Returns</a></li></ul></div><div class=\"footer-section\"><h3>Company</h3><ul><li><a href=\"/about.html\">About Us</a></li><li><a href=\"/about.html\">Privacy Policy</a></li><li><a href=\"/about.html\">Terms of Service</a></li><li><a href=\"/about.html\">Careers</a></li></ul></div><div class=\"footer-section\"><h3>Connect</h3><ul><li><a href=\"#\" aria-label=\"Facebook\">Facebook</a></li><li><a href=\"#\" aria-label=\"Instagram\">Instagram</a></li><li><a href=\"#\" aria-label=\"Twitter\">Twitter</a></li><li><a href=\"#\" aria-label=\"Pinterest\">Pinterest</a></li></ul></div></div><div class=\"footer-bottom\"><p>&copy; <span id=\"footer-year\">2026</span> one shop test3. All rights reserved.</p></div></footer>",
+  "shared_styles": "<style>:root{--font-serif:'Inter',system-ui,sans-serif;--font-sans:'Inter',system-ui,-apple-system,sans-serif;--color-bg:#FFFFFF;--color-surface:#FAFAFA;--color-text-primary:#111827;--color-text-secondary:#6B7280;--color-accent:#DC2626;--color-border:#E5E7EB;--color-header-bg:#111827;--color-footer-bg:#1F2937;--radius-sm:4px;--radius-md:8px;--radius-lg:16px;--shadow-sm:0 1px 2px rgba(0,0,0,0.05);--shadow-md:0 4px 12px rgba(0,0,0,0.08);--max-width:1400px}*{box-sizing:border-box;margin:0;padding:0}body{font-family:var(--font-sans);font-size:16px;line-height:1.6;color:var(--color-text-primary);background:var(--color-bg);-webkit-font-smoothing:antialiased}h1,h2,h3,h4,h5,h6{font-family:var(--font-sans);font-weight:700;line-height:1.2}h1{font-size:clamp(2rem,5vw,3.5rem)}h2{font-size:clamp(1.5rem,3vw,2.5rem)}h3{font-size:clamp(1.25rem,2.5vw,1.75rem)}a{color:var(--color-text-primary);text-decoration:none;transition:opacity 0.15s}a:hover{opacity:0.7}img{max-width:100%;height:auto;display:block}button{font-family:var(--font-sans);cursor:pointer;border:none;background:transparent;padding:0}.site-header{background:var(--color-header-bg);color:#FFFFFF;padding:1rem;position:sticky;top:0;z-index:100;box-shadow:var(--shadow-sm)}.header-inner{max-width:var(--max-width);margin:0 auto;display:flex;justify-content:space-between;align-items:center}.brand-logo{font-size:1.5rem;font-weight:700;color:#FFFFFF}.primary-nav{display:flex;gap:2rem;align-items:center}@media(max-width:768px){.primary-nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--color-header-bg);padding:1rem;gap:1rem;width:100%}.primary-nav.active{display:flex}.hamburger-toggle{display:block}.hamburger-toggle span{display:block;width:25px;height:3px;background:#FFFFFF;margin:5px 0;transition:0.3s}}.hamburger-toggle{display:none;background:none;border:none;cursor:pointer}.cart-link{background:var(--color-accent);color:#FFFFFF;padding:0.5rem 1rem;border-radius:var(--radius-sm);font-weight:600}.site-footer{background:var(--color-footer-bg);color:#FFFFFF;padding:2rem;margin-top:3rem}.footer-inner{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem}.footer-section h3{margin-bottom:1rem}.footer-section ul{list-style:none}.footer-section li{margin-bottom:0.5rem}.footer-section a{color:#FFFFFF;opacity:0.9}.footer-section a:hover{opacity:1}.footer-bottom{text-align:center;padding-top:2rem;border-top:1px solid rgba(255,255,255,0.1);margin-top:2rem;font-size:0.875rem}</style>",
+  "image_strategy": {
+    "source": "unsplash",
+    "keywords": [
+      "product-shopping",
+      "ecommerce-items",
+      "retail-goods",
+      "marketplace",
+      "online-store"
+    ],
+    "fallback_color": "#FAFAFA"
+  },
+  "page_constraints": {
+    "max_sections_default": 4,
+    "max_words_default": 500,
+    "specific_overrides": {
+      "products": {
+        "max_sections": 2,
+        "max_words": 300,
+        "required_sections": ["filter-bar", "product-grid"]
+      },
+      "product-detail": {
+        "max_sections": 3,
+        "max_words": 400,
+        "required_sections": ["hero-gallery", "product-info", "related-products"]
+      },
+      "cart": {
+        "max_sections": 2,
+        "max_words": 200,
+        "required_sections": ["cart-items", "order-summary"]
+      },
+      "checkout": {
+        "max_sections": 2,
+        "max_words": 200,
+        "required_sections": ["order-review", "payment-confirmation"]
+      }
+    }
+  },
+  "user_provided": {
+    "name": null,
+    "email": null,
+    "phone": null,
+    "location": null,
+    "social_handles": null
+  },
+  "social_urls": {
+    "facebook": null,
+    "instagram": null,
+    "twitter": null,
+    "linkedin": null,
+    "youtube": null,
+    "pinterest": null
+  }
+}
+```
+
+═══════════════════════════════════════════════════════════════════
+
+**PIPELINE: architect-agent,pm-agent,designer-agent,frontend-agent-static-landing,product-listing-agent,product-detail-agent,cart-agent,checkout-agent,about-agent,contact-agent,faq-agent,seo-agent,accessibility-agent,output-validator-agent,devops-agent**
